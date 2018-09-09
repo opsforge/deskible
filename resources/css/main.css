@@ -274,7 +274,7 @@ html, body {
 }
 
 .deskible-window-content {
-	overflow: auto;
+	/*overflow: auto;*/
 	height: 100%;
 	width: 100%;
 	box-sizing: border-box;
@@ -308,6 +308,7 @@ html, body {
 .deskible-contextualmenu {
 	position: absolute;
 	z-index: 16777271;
+	color: white;
 }
 
 .deskible-contextualmenu ul {

@@ -23,14 +23,10 @@
 				'desktopColor': '#000000',
 				'wallpaperScale': 'fit',
 				'wallpaperPosition': 'center center',
-				'wallpaperURL': 'resources/wallpapers/field-nature.jpg',
+				'wallpaperURL': 'resources/wallpapers/opsforge_devgru.jpg',
 				'wallpapersLocal': [
-					'resources/wallpapers/binary-wormhole.jpg',
-					'resources/wallpapers/field-nature.jpg',
-					'resources/wallpapers/moonlight-night.jpg',
-					'resources/wallpapers/pulse-map.jpg',
-					'resources/wallpapers/red-autumn.jpg',
-					'resources/wallpapers/wet-stone.jpg',
+					'resources/wallpapers/opsforge_devgru.jpg',
+					'resources/wallpapers/nature_scotland.jpg',
 				],
 				'changePassURL': '',
 				'startMenu': {},
@@ -1948,9 +1944,9 @@
 					'class': 'deskible-window-tabs'
 				}).append($('<ul/>'))).append($('<div/>', {
 					'class': 'deskible-window-content',
-					'css': {
-						'overflow': opts.overflow
-					}
+					// 'css': {
+					// 	'overflow': opts.overflow
+					// }
 				})));
 
 				if (opts.tabs === false) {

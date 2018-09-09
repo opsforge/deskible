@@ -73,13 +73,13 @@
 	border-color: silver;
 	border-width: 1px;
 	background-image: none;
-	background-color: white;
+	background-color: #262626;
 	font-size: 1em;
-	border-style: solid;
+	border-style: hidden;
 }
 
 .deskible-viewport .deskible-taskbar div {
-	background-color: white;
+	background-color: #262626;
 }
 
 .deskible-viewport .deskible-taskbar .deskible-task {
@@ -128,7 +128,7 @@
 	margin: 0 8px 0 0;
 	height: 30px;
 	border-style: solid;
-	border-width: 0 0 0 1px;
+	border-width: 0 0 0 0px;
 	border-left-color: #e1e1e1;
 	border-right-color: white;
 }
@@ -175,6 +175,25 @@
 	white-space: nowrap;
 }
 
+.deskible-taskbar-tasks {
+	color: #f2f2f2;
+}
+
+.ui.blue.active.button, .ui.blue.button .active.button:active, .ui.blue.buttons .active.button, .ui.blue.buttons .active.button:active {
+	background-color: #f2f2f2;
+	color: #404040;
+}
+
+.ui.blue.button, .ui.blue.buttons .button {
+	background-color: #404040;
+	color: #f2f2f2;
+}
+
+.ui.blue.button:hover, .ui.blue.buttons .button:hover {
+	background-color: #f2f2f2;
+	color: #404040;
+}
+
 .deskible-task {
 	width: 140px;
 	max-width: 140px;
@@ -185,9 +204,9 @@
 .deskible-menu {
 	border-style: solid;
 	border-width: 1px;
-	border-color: #e1e1e1;
+	border-color: #404040;
 	background-image: none;
-	background-color: white;
+	background-color: #262626;
 	box-shadow: #333 0 0 6px;
 	-moz-box-shadow: #333 0 0 6px;
 	-webkit-box-shadow: #333 0 0 6px;
@@ -197,12 +216,17 @@
 /* Menu Start */
 .deskible-startmenu-header {
 	background-image: none;
-	background-color: #3b83c0;
+	background-color: #262626;
 	padding: 10px;
 }
 
 .deskible-startmenu-menu {
-	border-right: 1px solid #e1e1e1;
+	border-right: 1px solid #404040;
+}
+
+.ui.button {
+	background-color: #404040;
+	color: #f2f2f2;
 }
 
 .deskible-startmenu-menu i,
@@ -227,7 +251,7 @@
 }
 
 .deskible-startmenu-usericon {
-	color: #7fa7eb;
+	color: white;
 }
 
 .deskible-startmenu-userlabel {
@@ -235,6 +259,7 @@
 }
 
 .deskible-startmenu-item {
+	color: white;
 	padding: 3px 0 3px 3px;
 }
 
@@ -256,9 +281,9 @@
 
 /* Windows Start */
 .deskible-window {
-	background: #3b83c0;
-	maring: 2px;
-	padding: 5px;
+	background: #262626;
+	/*margin: 2px;*/
+	padding: 0px;
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -268,10 +293,14 @@
 }
 
 .deskible-window-handle {
-	padding-top: 3px;
-	padding-bottom: 8px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	color: white;
-	background: #3b83c0;
+	background: #262626;
+}
+
+.deskible-window-title {
+	color: #f2f2f2;
 }
 
 .deskible-window-handle span {
@@ -279,12 +308,12 @@
 }
 
 .deskible-window-icon {
-	color: #7fa7eb;
+	color: #f2f2f2;
 }
 
 .deskible-window-controls .button {
-	background-color: #7fa7eb;
-	color: #3b83c0;
+	background-color: #737373;
+	color: #f2f2f2;
 	font-size: 0.8rem !important;
 	padding: 0.25em !important;
 }
@@ -306,7 +335,7 @@
 }
 
 .deskible-window-content {
-	padding: 5px;
+	padding: 0px;
 }
 /* Windows End */
 
